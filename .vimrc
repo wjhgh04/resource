@@ -47,8 +47,9 @@ set nocp
 "打开状态栏标尺
 "set ruler
 
-"突出当前行
+"高亮当前行
 set cursorline
+hi CursorLine   cterm=NONE ctermbg=white ctermfg=black guibg=darkred guifg=white
 
 "如果该 Vim 支持鼠标，则启用鼠标支持
 if has('mouse')
